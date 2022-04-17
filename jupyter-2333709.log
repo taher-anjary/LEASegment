@@ -1,0 +1,300 @@
+=======================
+Loading Anaconda Module...
+=======================
+
+============================== ENVIRONMENT VARIABLES ===============================
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_NODELIST=ai10
+SLURM_JOB_NAME=LEAStereoJupyter
+XDG_SESSION_ID=16551
+SLURMD_NODENAME=ai10
+SLURM_TOPOLOGY_ADDR=ai10
+SLURM_NTASKS_PER_NODE=2
+HOSTNAME=ai10
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+SHELL=/bin/bash
+TERM=xterm-256color
+SLURM_JOB_QOS=ai
+HISTSIZE=1000
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_CLIENT=172.24.5.181 53938 22
+LIBRARY_PATH=/usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/lib
+CONDA_SHLVL=1
+CONDA_PROMPT_MODIFIER=(leas) 
+QTDIR=/usr/lib64/qt-3.3
+SLURM_JOB_GPUS=0
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/6
+SLURM_MEM_PER_CPU=4096
+QT_GRAPHICSSYSTEM_CHECKED=1
+CUDA_HOME=/usr/local/cuda-10.2
+SLURM_NNODES=1
+USER=tanjary21
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH=/kuacc/apps/cudnn/v8.1.1_CUDA_10.2/lib64:/usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/lib:/kuacc/users/tanjary21/.conda/envs/leas/lib:
+CONDA_EXE=/kuacc/apps/anaconda/3.6/bin/conda
+CPATH=/kuacc/apps/cudnn/v8.1.1_CUDA_10.2/include:/usr/local/cuda-10.2/include
+SLURM_JOBID=2333709
+SLURM_NTASKS=2
+SLURM_TASKS_PER_NODE=2
+PATH=/usr/local/cuda-10.2/bin:/kuacc/users/tanjary21/.conda/envs/leas/bin:/kuacc/apps/anaconda/3.6/bin:/kuacc/apps/anaconda/3.6:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/kuacc/apps/scripts:/kuacc/users/tanjary21/.local/bin:/kuacc/users/tanjary21/bin
+MAIL=/var/spool/mail/tanjary21
+SLURM_JOB_ID=2333709
+CONDA_PREFIX=/kuacc/users/tanjary21/.conda/envs/leas
+SLURM_JOB_USER=tanjary21
+PWD=/scratch/users/tanjary21/leas/LEAStereo
+CUDA_VISIBLE_DEVICES=0
+_LMFILES_=/kuacc/etc/mod/anaconda/3.6:/kuacc/etc/mod/cuda/10.2:/kuacc/etc/mod/cudnn/8.1.1/cuda-10.2
+LANG=C.UTF-8
+MODULEPATH=/kuacc/etc/mod
+SLURM_JOB_UID=1083890
+KDEDIRS=/usr
+LOADEDMODULES=anaconda/3.6:cuda/10.2:cudnn/8.1.1/cuda-10.2
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/scratch/users/tanjary21/leas/LEAStereo
+SLURM_TASK_PID=111014
+SLURM_NPROCS=2
+SLURM_CPUS_ON_NODE=2
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+KRB5CCNAME=KEYRING:persistent:1083890
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SLURM_JOB_NODELIST=ai10
+HOME=/kuacc/users/tanjary21
+SHLVL=2
+SLURM_LOCALID=0
+SLURM_JOB_GID=200513
+SLURM_JOB_CPUS_PER_NODE=2
+SLURM_CLUSTER_NAME=kuacc
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=login03.kuacc.ku.edu.tr
+SLURM_JOB_PARTITION=ai
+LOGNAME=tanjary21
+CONDA_PYTHON_EXE=/kuacc/apps/anaconda/3.6/bin/python
+QTLIB=/usr/lib64/qt-3.3/lib
+GPU_DEVICE_ORDINAL=0
+SLURM_JOB_ACCOUNT=ai
+SSH_CONNECTION=172.24.5.181 53938 172.20.238.3 22
+SLURM_JOB_NUM_NODES=1
+MODULESHOME=/usr/share/Modules
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+CONDA_DEFAULT_ENV=leas
+XDG_RUNTIME_DIR=/run/user/1083890
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/env
+====================================================================================
+
+
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 2061306
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 8388608
+open files                      (-n) 51200
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+
+====================================================================================
+ For more info and how to connect from windows, 
+   see http://login.kuacc.ku.edu.tr/#h.p3tmxkpdxjsz
+
+ Here is the MobaXterm info:
+
+Forwarded port:same as remote port
+Remote server: ai10
+Remote port: 6377
+SSH server: login.kuacc.ku.edu.tr
+SSH login: tanjary21
+SSH port: 22
+
+====================================================================================
+ MacOS or linux terminal command to create your ssh tunnel on your local machine:
+
+ssh -N -L 6377:ai10:6377 tanjary21@login.kuacc.ku.edu.tr
+====================================================================================
+
+WAIT 1 MINUTE, WILL BE CONNECT ADDRESS APPEARS!
+
+
+[W 22:35:00.001 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 22:35:00.573 NotebookApp] JupyterLab extension loaded from /kuacc/users/tanjary21/.conda/envs/leas/lib/python3.8/site-packages/jupyterlab
+[I 22:35:00.574 NotebookApp] JupyterLab application directory is /kuacc/users/tanjary21/.conda/envs/leas/share/jupyter/lab
+[I 22:35:00.582 NotebookApp] Serving notebooks from local directory: /scratch/users/tanjary21/leas/LEAStereo
+[I 22:35:00.582 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 22:35:00.583 NotebookApp] http://ai10.kuacc.ku.edu.tr:6377/?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd
+[I 22:35:00.583 NotebookApp]  or http://127.0.0.1:6377/?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd
+[I 22:35:00.584 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:35:00.619 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///scratch/users/tanjary21/.local/share/jupyter/runtime/nbserver-111029-open.html
+    Or copy and paste one of these URLs:
+        http://ai10.kuacc.ku.edu.tr:6377/?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd
+     or http://127.0.0.1:6377/?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd
+[I 22:35:33.869 NotebookApp] 302 GET /?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd (172.20.240.3) 1.23ms
+[I 22:36:41.608 NotebookApp] Kernel started: 1ce97984-4083-4b4c-8665-5e5bdc44a5c3, name: python3
+[I 22:38:54.920 NotebookApp] Saving file at /misc.ipynb
+[I 22:41:36.595 NotebookApp] Saving file at /misc.ipynb
+[I 22:44:16.778 NotebookApp] Saving file at /misc.ipynb
+[I 22:47:00.816 NotebookApp] Saving file at /misc.ipynb
+[I 22:49:37.872 NotebookApp] Saving file at /misc.ipynb
+[I 22:52:29.916 NotebookApp] Saving file at /misc.ipynb
+[I 22:54:59.986 NotebookApp] Saving file at /misc.ipynb
+[I 22:57:39.989 NotebookApp] Saving file at /misc.ipynb
+[I 23:13:41.380 NotebookApp] Saving file at /misc.ipynb
+[I 23:16:18.909 NotebookApp] Saving file at /misc.ipynb
+[I 23:18:58.110 NotebookApp] Saving file at /misc.ipynb
+[I 23:21:48.010 NotebookApp] Saving file at /misc.ipynb
+[I 23:24:21.289 NotebookApp] Saving file at /misc.ipynb
+[I 23:27:00.349 NotebookApp] Saving file at /misc.ipynb
+[I 23:29:38.119 NotebookApp] Saving file at /misc.ipynb
+[I 23:31:37.704 NotebookApp] Saving file at /misc.ipynb
+[I 23:32:19.324 NotebookApp] Saving file at /misc.ipynb
+[I 23:34:58.644 NotebookApp] Saving file at /misc.ipynb
+[I 23:37:37.680 NotebookApp] Saving file at /misc.ipynb
+[I 23:43:01.261 NotebookApp] Saving file at /misc.ipynb
+[I 23:45:38.083 NotebookApp] Saving file at /misc.ipynb
+[I 23:48:19.057 NotebookApp] Saving file at /misc.ipynb
+[I 00:20:22.388 NotebookApp] Saving file at /misc.ipynb
+[I 00:25:39.403 NotebookApp] Saving file at /misc.ipynb
+[I 00:33:38.848 NotebookApp] Saving file at /misc.ipynb
+[I 00:38:58.533 NotebookApp] Saving file at /misc.ipynb
+[I 00:41:39.527 NotebookApp] Saving file at /misc.ipynb
+[I 00:46:51.431 NotebookApp] Starting buffering for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:b97b077a51954f7a9311a6ca0c3677ca
+[I 09:40:14.081 NotebookApp] 302 GET /?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd (172.20.240.3) 2.13ms
+[I 10:18:47.522 NotebookApp] Saving file at /train.py
+[I 10:21:39.630 NotebookApp] Kernel started: c8d12d65-129e-4cd0-b54f-886ffeec46c5, name: python3
+[I 10:23:11.087 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 10:23:56.415 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:24:41.919 NotebookApp] Saving file at /train.py
+[I 10:26:58.198 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:27:24.993 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 10:27:57.202 NotebookApp] Saving file at /train.py
+[I 10:29:59.245 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:32:29.065 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 10:33:00.033 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:39:16.738 NotebookApp] Saving file at /train.py
+[I 10:41:59.812 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:42:02.449 NotebookApp] Saving file at /train.py
+[I 10:44:43.963 NotebookApp] Saving file at /train.py
+[I 10:44:59.099 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:45:16.254 NotebookApp] Saving file at /train.py
+[I 10:45:24.068 NotebookApp] Saving file at /train.py
+[I 10:46:32.023 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 10:47:58.442 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:49:30.080 NotebookApp] Saving file at /train.py
+[I 10:51:00.110 NotebookApp] Saving file at /leastereo.ipynb
+[I 10:51:02.990 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 10:53:02.382 NotebookApp] Saving file at /train.py
+[I 10:54:01.382 NotebookApp] Saving file at /leastereo.ipynb
+[W 11:06:01.684 NotebookApp] WebSocket ping timeout after 119386 ms.
+[I 11:06:06.687 NotebookApp] Starting buffering for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:1843400e7f48457d954a372982ca183a
+[W 11:06:13.137 NotebookApp] WebSocket ping timeout after 119785 ms.
+[I 11:06:18.141 NotebookApp] Starting buffering for c8d12d65-129e-4cd0-b54f-886ffeec46c5:b258987e8bd64a8e8333a073ebf9dd84
+[I 11:10:04.290 NotebookApp] Restoring connection for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:1843400e7f48457d954a372982ca183a
+[I 11:14:43.246 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:14:58.021 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:15:05.423 NotebookApp] Restoring connection for c8d12d65-129e-4cd0-b54f-886ffeec46c5:b258987e8bd64a8e8333a073ebf9dd84
+[I 11:16:17.427 NotebookApp] Saving file at /train_kitti15.sh
+[I 11:16:51.643 NotebookApp] Saving file at /train.py
+[I 11:17:59.127 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:18:54.236 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:20:54.651 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:20:58.583 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:22:27.523 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:23:54.012 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:24:00.547 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:24:50.667 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:26:02.942 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:26:58.871 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:29:05.660 NotebookApp] Saving file at /misc.ipynb
+[I 11:29:58.629 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:31:03.428 NotebookApp] Saving file at /misc.ipynb
+[I 11:31:08.458 NotebookApp] Saving file at /misc.ipynb
+[I 11:32:39.596 NotebookApp] Saving file at /misc.ipynb
+[I 11:32:58.826 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:33:50.466 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:34:42.536 NotebookApp] Saving file at /train.py
+[I 11:35:00.754 NotebookApp] Saving file at /train_kitti15.sh
+[I 12:11:44.897 NotebookApp] Starting buffering for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:1843400e7f48457d954a372982ca183a
+[I 12:11:44.898 NotebookApp] Starting buffering for c8d12d65-129e-4cd0-b54f-886ffeec46c5:b258987e8bd64a8e8333a073ebf9dd84
+[I 22:09:51.459 NotebookApp] 302 GET /?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd (172.20.240.2) 0.92ms
+[W 00:02:30.483 NotebookApp] WebSocket ping timeout after 119555 ms.
+[I 00:02:35.487 NotebookApp] Starting buffering for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:8412b959eed74b5393c794a3b9d9fa66
+[I 11:38:48.169 NotebookApp] 302 GET /?token=52ef170ee53d586d37c37bea90ba306463768607a14931fd (172.20.240.2) 0.78ms
+[I 11:39:14.089 NotebookApp] Restoring connection for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:8412b959eed74b5393c794a3b9d9fa66
+[I 11:40:10.496 NotebookApp] Starting buffering for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:8412b959eed74b5393c794a3b9d9fa66
+[I 11:42:27.935 NotebookApp] Saving file at /misc.ipynb
+[I 11:44:01.126 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:46:50.970 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:47:26.930 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:54:13.117 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 11:55:27.355 NotebookApp] Saving file at /leastereo.ipynb
+[I 11:59:09.640 NotebookApp] Saving file at /train.py
+[I 11:59:26.750 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:01:26.781 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:02:18.591 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:03:08.753 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:03:27.737 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:07:41.955 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:07:51.362 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:08:52.684 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 12:09:26.755 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:15:10.065 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:24:49.184 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:26:38.991 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:27:03.337 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:29:28.023 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:29:52.434 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:31:24.149 NotebookApp] Saving file at /retrain/LEAStereo.py
+[I 12:31:28.404 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:31:29.809 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:33:32.056 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:36:58.910 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:37:26.744 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:39:29.089 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:41:45.506 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:43:34.875 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:45:10.056 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:46:06.022 NotebookApp] Saving file at /dataloaders/__init__.py
+[I 12:46:24.597 NotebookApp] Saving file at /dataloaders/datasets/stereo.py
+[I 12:47:06.847 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 12:47:26.752 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:48:04.304 NotebookApp] Saving file at /train.py
+[I 12:48:28.636 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 12:49:11.441 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 12:49:28.333 NotebookApp] Saving file at /leastereo.ipynb
+[I 12:51:30.517 NotebookApp] Saving file at /leastereo.ipynb
+[I 14:22:02.275 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 14:22:11.120 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 14:22:11.815 NotebookApp] Kernel interrupted: c8d12d65-129e-4cd0-b54f-886ffeec46c5
+[I 14:23:27.503 NotebookApp] Saving file at /leastereo.ipynb
+[I 14:24:34.837 NotebookApp] Saving file at /misc.ipynb
+[I 14:28:30.845 NotebookApp] Saving file at /misc.ipynb
+[I 14:30:28.501 NotebookApp] Saving file at /misc.ipynb
+[I 14:34:27.444 NotebookApp] Saving file at /misc.ipynb
+[I 14:36:28.212 NotebookApp] Saving file at /misc.ipynb
+[I 14:38:27.839 NotebookApp] Saving file at /misc.ipynb
+[I 14:40:27.468 NotebookApp] Saving file at /misc.ipynb
+[I 14:42:34.211 NotebookApp] Saving file at /misc.ipynb
+[I 16:14:39.556 NotebookApp] Starting buffering for 1ce97984-4083-4b4c-8665-5e5bdc44a5c3:144834f268644da581fba1a2aa317003
+[I 16:14:39.557 NotebookApp] Starting buffering for c8d12d65-129e-4cd0-b54f-886ffeec46c5:4803b7fb305748f984673d7388e2faaa
+slurmstepd: error: *** JOB 2333709 ON ai10 CANCELLED AT 2021-06-10T10:40:12 DUE TO TIME LIMIT ***
+[C 10:40:12.806 NotebookApp] received signal 15, stopping
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
