@@ -1,4 +1,4 @@
-## LEAStereo
+## LEASegment
 
 This repository contains the code for the NeurIPS 2020 paper `Hierarchical Neural Architecture Searchfor Deep Stereo Matching` [[NeurIPS 20](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf)], adapted for semantic segmentation on KITTI-15 dataset
 
