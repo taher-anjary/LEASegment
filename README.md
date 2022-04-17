@@ -111,7 +111,7 @@ If you find this code useful, please consider to cite their/our work.
 }
 ```
 
-``
+```
 @article{tanjaryLEASegment,
   title={Semantic Segmentaion using Stereo Input},
   author={Taher Anjary, Omar Moured},
