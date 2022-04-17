@@ -1,6 +1,6 @@
 ## LEAStereo
 
-This repository contains the code for our NeurIPS 2020 paper `Hierarchical Neural Architecture Searchfor Deep Stereo Matching` [[NeurIPS 20](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf)] 
+This repository contains the code for the NeurIPS 2020 paper `Hierarchical Neural Architecture Searchfor Deep Stereo Matching` [[NeurIPS 20](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf)], adapted for semantic segmentation on KITTI-15 dataset
 
 ![alt text](./LEStereo.png)
 
@@ -34,7 +34,7 @@ Follow the instructions [here](https://github.com/NVIDIA/apex#quick-start). Apex
 Please do not use pip install apex - this will not install the correct package.
 
 ### Dataset
-To evaluate/train our LEAStereo network, you will need to download the required datasets.
+To evaluate/train the LEAStereo network, you will need to download the required datasets.
 
 * [SceneFlow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
 
@@ -73,7 +73,7 @@ sh predict_md.sh
 sh predict_kitti12.sh
 sh predict_kitti15.sh
 ```
-Results of our model on three benchmark datasets could also be found [here](https://drive.google.com/file/d/1Wcv-WzQToTwAiBfWpONrtyQSgsHrWqWC/view?usp=sharing) 
+Results of their model on three benchmark datasets could also be found [here](https://drive.google.com/file/d/1Wcv-WzQToTwAiBfWpONrtyQSgsHrWqWC/view?usp=sharing) 
 
 
 ### Architecture Search 
@@ -99,7 +99,7 @@ sh train_kitti15.sh
 This repository makes liberal use of code from [[AutoDeeplab](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.html)]  [[pytorch code](https://github.com/NoamRosenberg/autodeeplab)(Non-official)]. 
 
 ### Citing
-If you find this code useful, please consider to cite our work.
+If you find this code useful, please consider to cite their/our work.
 
 ```
 @article{cheng2020hierarchical,
@@ -108,6 +108,14 @@ If you find this code useful, please consider to cite our work.
   journal={Advances in Neural Information Processing Systems},
   volume={33},
   year={2020}
+}
+```
+
+``
+@article{tanjaryLEASegment,
+  title={Semantic Segmentaion using Stereo Input},
+  author={Taher Anjary, Omar Moured},
+  year={2021}
 }
 ```
 
